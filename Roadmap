@@ -1,0 +1,14 @@
+## Roadmap
+
+### Phase 2 — Intelligence Improvements
+- [ ] Live D3FEND ontology sync from GitHub (replace hardcoded matrix)
+- [ ] Package as pip installable (`pip install mcp-cyber-servers`)
+
+### Phase 3 — Agentic SOC Analyst
+- [ ] Autonomous alert triage agent (chain all tools automatically)
+- [ ] Multi-step reasoning across D3FEND + Kill Chain in one query
+- [ ] SIEM integration (Splunk / Elastic alert ingestion)
+
+### Phase 4 — Enterprise Integration
+- [ ] SOAR playbook auto-generation
+- [ ] Slack / Teams SOC notification integration
