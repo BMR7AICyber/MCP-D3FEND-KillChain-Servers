@@ -1,0 +1,33 @@
+{
+  "_comment": "Claude Desktop MCP Configuration — Cyber Defense Intelligence Suite",
+  "_instructions": [
+    "1. Copy this file to: ~/Library/Application Support/Claude/claude_desktop_config.json (macOS)",
+    "   or: %APPDATA%\\Claude\\claude_desktop_config.json (Windows)",
+    "2. Update all /path/to/ with your actual absolute paths",
+    "3. Restart Claude Desktop after saving"
+  ],
+
+  "mcpServers": {
+
+    "d3fend-intelligence": {
+      "_description": "MITRE D3FEND → ATT&CK countermeasure mapping for defensive coverage analysis",
+      "command": "python",
+      "args": ["/path/to/mcp-cyber-servers/d3fend_server/server.py"],
+      "env": {
+        "PYTHONPATH": "/path/to/mcp-cyber-servers",
+        "PYTHONUNBUFFERED": "1"
+      }
+    },
+
+    "killchain-intelligence": {
+      "_description": "Lockheed Martin Cyber Kill Chain IOC analysis and attack progression tracking",
+      "command": "python",
+      "args": ["/path/to/mcp-cyber-servers/killchain_server/server.py"],
+      "env": {
+        "PYTHONPATH": "/path/to/mcp-cyber-servers",
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+
+  }
+}
