@@ -1,0 +1,14 @@
+**Real-World High-Impact Use Cases:**
+
+**Tier 1 — Immediate SOC Value**
+- **Alert Triage** — EDR/SIEM alert comes in, instantly maps to Kill Chain stage + D3FEND countermeasures. Cuts analyst triage time from 20 min to seconds
+- **Defensive Gap Assessment** — Before a pentest or audit, run your deployed stack through gap analysis. Know your blind spots before the attacker does
+
+**Tier 2 — Incident Response**
+- **Live Incident Mapping** — During an active breach, track attacker progression across Kill Chain stages in real time using timeline events
+- **Post-Incident Hardening** — After an incident, auto-map every used TTP to missing defensive controls. Turns IR reports into actionable roadmaps
+
+**Tier 3 — Strategic**
+- **Security Budgeting** — Show leadership exactly which D3FEND tactic categories lack coverage and why investment is needed. Evidence-based, not opinion-based
+
+These 5 are defensible in front of a CISO, SOC manager, or IR team — every one of them solves a real pain point with a measurable outcome.
